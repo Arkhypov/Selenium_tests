@@ -109,4 +109,3 @@ class PrioriityQuee{
 		priorityQ2.stream().forEach(e->System.out.print("|"+e+"|"));
 	}
 }
-
