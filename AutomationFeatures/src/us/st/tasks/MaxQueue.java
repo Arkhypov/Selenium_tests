@@ -7,7 +7,7 @@ import java.util.List;
 public class MaxQueue<Integer> {
 	
 	LinkedList<Integer> queue = null; 
-	int maxEl=0;
+	int maxEl=Integer.MIN_VALUE;
 	List maxL = new ArrayList<Integer>();
 	
 	MaxQueue() {
@@ -42,7 +42,7 @@ public class MaxQueue<Integer> {
 		return queue.get(pos);
 	}
 	
-	public int getMax(){
-		return maxEl;
+	public Integer getMax(){
+		return new Integer(maxEl);
 	}
 }
