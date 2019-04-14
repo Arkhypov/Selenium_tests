@@ -8,7 +8,7 @@ public class MaxQueue<Integer> {
 	
 	LinkedList<Integer> queue = null; 
 	int maxEl=Integer.MIN_VALUE;
-	List maxL = new ArrayList<Integer>();
+	ArrayList maxL = new ArrayList<Integer>();
 	
 	MaxQueue() {
 		queue=new LinkedList<Integer>();
@@ -26,6 +26,9 @@ public class MaxQueue<Integer> {
 		Integer el = queue.getLast();
 		if((int)el==maxEl){
 			maxL.remove(el);
+			if(!maxL.isEmpty()){
+				maxEl = (int) maxL.get(maxL.size()-1);
+			}
 		}
 		return queue.removeLast();
 	}
