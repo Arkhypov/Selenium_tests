@@ -8,7 +8,7 @@ public class HackerRankStockPicker {
 	}
 	static String maxDifference(int [] data){
 		 
-		 int buyDay=0;
+		 int buyDay=Integer.MIN_VALUE;
 		 int sellPrice=0;
 		 int sellDay=0;
 		 int buyPrice=0;
@@ -35,7 +35,7 @@ public class HackerRankStockPicker {
 		 
 		 for(int i=0;i<data.length; i++){
 			 
-			 if(data[i]==buyPrice){
+			 if(data[i]==buyPrice &&(i+1)<sellDay){
 				 buyDay=i+1; 
 			 }
 			 

@@ -1,5 +1,6 @@
 package us.st.tasks;
 
+
 public class CodeparTest {
 
 	public static void main(String[] args) {
@@ -7,7 +8,7 @@ public class CodeparTest {
 
 	}
 	
-	public String reverse(String inputStr) throws InvalidInputStringException {
+	/*public String reverse(String inputStr) throws InvalidInputStringException {
 
 	    if(inputStr==null || inputStr.length()<2){
 	        throw new InvalidInputStringException ("Input string is not correct");
@@ -17,6 +18,6 @@ public class CodeparTest {
 	    
 	    return strB.reverse().toString();
 
-	}
+	}*/
 
 }
