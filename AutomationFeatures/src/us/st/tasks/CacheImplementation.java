@@ -50,7 +50,7 @@ static class LRUCache {
  }
  public int get(String key) {
    lastUsedVal.add(key);
-   while(lastUsedVal.size()>=cacheSize){
+   if(lastUsedVal.size()>=cacheSize){
      lastUsedVal.remove(lastUsedVal.iterator().next());
        
    }      
