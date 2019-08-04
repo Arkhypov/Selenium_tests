@@ -46,7 +46,7 @@ public class SearchDestination2DAmazon {
 	So, the output is 3.*/
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-
+		System.out.println(minimumDistance(int numRows, int numColumns, List<List<Integer>> area));
 	}
 	
 	int minimumDistance(int numRows, int numColumns, List<List<Integer>> area)

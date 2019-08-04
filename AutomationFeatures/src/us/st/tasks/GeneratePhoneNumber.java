@@ -10,7 +10,7 @@ import java.util.Stack;
 import java.util.stream.Collectors;
 
 
-public class JPTest {
+public class GeneratePhoneNumber {
 
 	public static void main(String[] args) 
     {     

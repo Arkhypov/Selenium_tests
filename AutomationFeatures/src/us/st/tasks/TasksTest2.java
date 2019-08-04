@@ -198,6 +198,55 @@ static int reductionArray(int[] num) {
 	*/
 
 }
+
+
+import java.io.*;
+import java.util.*;
+import java.text.*;
+import java.math.*;
+import java.util.regex.*;
+
+/*
+
+int[] input = {1,5,6,6,9};
+int sum = 20;
+
+int closestPairToSum = {6,9};
+
+*/
+/*
+1.  
+2. do binary search
+
+1. loop all elements 
+and put result in hashmap
+*/
+/*public class Solution {
+    public static void main(String args[] ) throws Exception {
+         Enter your code here. Read input from STDIN. Print output to STDOUT 
+        System.out.println(Arrays.toString(getClosestKeyPair(new int[] {1,5,6,6,9}, 20)));
+    }
+    
+    public static int[] getClosestKeyPair(int[] input, int sum){
+        int result[]= new int[2];
+        Set<Integer> set = new HashSet();
+        int diff=Integer.MIN_VALUE;
+        for(int i=0; i< input.length; i++){
+            if(set.contains(input[i])){continue;}
+            set.add(input[i]);
+            for(int j=i; j< input.length;j++){
+                //if(set.contains(input[j])){continue;}
+                //set.add(input[j]);
+                if(20-(input[i]+input[j])<=sum){
+                    diff=20-(input[i]+input[j]);
+                    result=new int[]{input[i],input[j]};
+                }
+            }
+        }
+        return result;
+    }
+   
+}*/
 	
 	/* Problem Name is &&& Is Power of 10 &&& PLEASE DO NOT REMOVE THIS LINE. */
 	/**
