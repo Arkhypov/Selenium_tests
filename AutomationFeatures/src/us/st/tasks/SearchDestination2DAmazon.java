@@ -46,14 +46,15 @@ public class SearchDestination2DAmazon {
 	So, the output is 3.*/
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		System.out.println(minimumDistance(int numRows, int numColumns, List<List<Integer>> area));
+		//System.out.println(minimumDistance(int numRows, int numColumns, List<List<Integer>> area));
 	}
 	
-	int minimumDistance(int numRows, int numColumns, List<List<Integer>> area)
+	int minimumDistance(char[][] area)
     {
-		int i=0; 
-		int j=0;
+		int n=area.length; 
+		int m=area[0].length;
 		int count=0;
+		
         for(;i<area.size();){
         	if(area.get(i).get(j)==9){
         		return count;
