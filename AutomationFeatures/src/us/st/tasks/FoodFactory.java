@@ -1,7 +1,7 @@
 package us.st.tasks;
 
 
-public class HackerRankFoodFactory {
+public class FoodFactory {
     
 	public static void main(String[] args) {
 		

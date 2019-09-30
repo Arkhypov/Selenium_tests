@@ -13,7 +13,7 @@ import java.util.Set;
 import org.json.simple.*;
 import org.json.simple.parser.*;
 
-public class HackerRankCountries {
+public class CountriesRestAPI {
 
 	
 	static Set <String> countries = new HashSet<String>();

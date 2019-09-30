@@ -1,6 +1,6 @@
 package us.st.tasks;
 
-public class HackerRankAnimal {
+public class AnimalFactory {
 
 	public static void main(String[] args){
 		

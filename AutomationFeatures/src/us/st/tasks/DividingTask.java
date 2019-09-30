@@ -1,6 +1,6 @@
 package us.st.tasks;
 
-public class HackerRankDividingTask {
+public class DividingTask {
 
 	public static void main(String[] args) {
 		find_numbers(3,3,333);

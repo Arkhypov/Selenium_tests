@@ -3,7 +3,7 @@ package us.st.tasks;
 
 import java.util.Scanner;
 
-public class HackerRankGetArea {
+public class GetAreaFactory {
 	
 	
 	public static void main(String[] args) {

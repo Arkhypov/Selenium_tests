@@ -3,7 +3,7 @@ package us.st.tasks;
 import java.awt.List;
 import java.util.ArrayList;
 
-public class HackerRankMagicalSubsequence {
+public class MagicalSubsequence {
 	
 	
 	 public static void main(String[] args) throws Exception {
