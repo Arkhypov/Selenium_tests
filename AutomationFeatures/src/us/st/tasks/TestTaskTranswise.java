@@ -40,8 +40,12 @@ public class TestTaskTranswise {
 		
 		
 		return result;
-
-        
-
     }
+	
 }
+
+//Say there's an array that contains all the integers, from 1 to 1 million with no duplicates.
+//Now, before I give you this array, I take out a number at random and replace it with zero.
+
+
+//Could you write a method that would take this modified array and return the missing number?

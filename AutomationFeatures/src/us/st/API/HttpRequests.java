@@ -1,6 +1,6 @@
 package us.st.API;
 
-import static org.junit.Assert.*;
+import static org.junit.*;
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.util.ArrayList;

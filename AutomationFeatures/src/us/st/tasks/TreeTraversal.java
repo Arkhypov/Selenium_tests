@@ -1,5 +1,7 @@
 package us.st.tasks;
 
+import static org.junit.Assert.*;
+
 public class TreeTraversal {
 
 	public static void main(String[] args) throws Exception {

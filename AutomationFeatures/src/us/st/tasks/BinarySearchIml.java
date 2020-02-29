@@ -5,11 +5,12 @@ public class BinarySearchIml {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+		findBinarySearchIteratively(new int[]{1},1);
 
 	}
 	
 	//complexity: logN
-	public int findBinarySearchIteratively(int[] sortedArray, int key) {
+	public static int findBinarySearchIteratively(int[] sortedArray, int key) {
 			    
 				int index = Integer.MAX_VALUE;
 				int l=0;
@@ -25,6 +26,8 @@ public class BinarySearchIml {
 			            break;
 			        }
 			    }
+			    System.out.println("Eujene is mine"); 
 			    return index;
 			}
 }
+

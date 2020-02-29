@@ -22,7 +22,7 @@ import java.util.*;
 
 
 
-public class CacheImplementation {
+public class LRUCacheImpl {
 static class LRUCache {
  
  private Map<String, Integer> map = null;
@@ -38,6 +38,8 @@ static class LRUCache {
      String entryToRemove=null;
      for(String entry: map.keySet()){
        if(!lastUsedVal.contains(entry)){
+    	   List<String> sL= new ArrayList<String>();
+    	   
          entryToRemove=entry; 
          break;
        }

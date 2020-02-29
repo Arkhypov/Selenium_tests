@@ -12,7 +12,6 @@ public class AmexTest {
 		// TODO Auto-generated method stub
 		
 		//solution("ABCHello");
-		System.out.println(solution2(1,8));
 		
 	}
 	
@@ -76,20 +75,6 @@ public class AmexTest {
 
         return Character.toString(best_char);
     }
-	static int solution2(int A, int B) {
-        // write your code in Java SE 8
-		int count = 0;
-        while(A<=B){
-        	double result= Math.sqrt(B);
-        	if(result==Math.floor(result)){
-        		count++;
-        	}
-        	B--;
-        }
-		return count;
-    }
-	
-	
 	
 }
 class Tree {
